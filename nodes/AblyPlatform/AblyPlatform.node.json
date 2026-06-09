@@ -1,0 +1,20 @@
+{
+  "node": "N8nDevAblyPlatform",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": [
+    "Development"
+  ],
+  "resources": {
+    "primaryDocumentation": [
+      {
+        "url": "https://github.com/n8n-code/n8n-nodes-ably-platform"
+      }
+    ],
+    "credentialDocumentation": [
+      {
+        "url": "https://github.com/n8n-code/n8n-nodes-ably-platform?tab=readme-ov-file#credentials"
+      }
+    ]
+  }
+}
