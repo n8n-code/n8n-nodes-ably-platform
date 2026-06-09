@@ -218,7 +218,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "deviceId",
 			"description": "Must be set when clientId is empty, cannot be used with clientId.",
 			"default": "",
@@ -243,7 +243,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Client Id",
+			"displayName": "Client ID",
 			"name": "clientId",
 			"description": "Must be set when deviceId is empty, cannot be used with deviceId.",
 			"default": "",
@@ -362,7 +362,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "deviceId",
 			"description": "Optional filter to restrict to devices associated with that deviceId. Cannot be used with clientId.",
 			"default": "",
@@ -387,7 +387,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Client Id",
+			"displayName": "Client ID",
 			"name": "clientId",
 			"description": "Optional filter to restrict to devices associated with that clientId. Cannot be used with deviceId.",
 			"default": "",
@@ -531,7 +531,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "deviceId",
 			"type": "string",
 			"default": "",
@@ -694,7 +694,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "deviceId",
 			"description": "Optional filter to restrict to devices associated with that deviceId. Cannot be used with clientId.",
 			"default": "",
@@ -719,7 +719,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Client Id",
+			"displayName": "Client ID",
 			"name": "clientId",
 			"description": "Optional filter to restrict to devices associated with that clientId. Cannot be used with deviceId.",
 			"default": "",
@@ -813,7 +813,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "deviceId",
 			"description": "Optional filter to restrict to devices associated with that deviceId.",
 			"default": "",
@@ -838,7 +838,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Client Id",
+			"displayName": "Client ID",
 			"name": "clientId",
 			"description": "Optional filter to restrict to devices associated with that clientId.",
 			"default": "",
@@ -957,7 +957,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Client Id",
+			"displayName": "Client ID",
 			"name": "clientId",
 			"type": "string",
 			"default": "",
@@ -1062,7 +1062,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -1280,7 +1280,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
 			"required": true,
 			"description": "Device's ID.",
@@ -1367,7 +1367,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
 			"required": true,
 			"description": "Device's ID.",
@@ -1454,7 +1454,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
 			"required": true,
 			"description": "Device's ID.",
@@ -1472,7 +1472,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Client Id",
+			"displayName": "Client ID",
 			"name": "clientId",
 			"type": "string",
 			"default": "",
@@ -1577,7 +1577,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -1795,7 +1795,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
 			"required": true,
 			"description": "Device's ID.",
@@ -1813,7 +1813,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Client Id",
+			"displayName": "Client ID",
 			"name": "clientId",
 			"type": "string",
 			"default": "",
@@ -1918,7 +1918,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -2136,7 +2136,7 @@ export const pushDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
 			"required": true,
 			"description": "Device's ID.",

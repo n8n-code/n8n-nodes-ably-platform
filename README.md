@@ -53,14 +53,63 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Status | Get enumerate all active channels of the application, Get metadata of a channel, Get presence of a channel |
-| History | Get message history for a channel, Get presence history of a channel |
-| Publishing | Post publish a message to a channel |
-| Authentication | Post request an access token |
-| Push | Delete a registered devices update token, Get list channel subscriptions, Post subscribe a device to a channel, Get list all channels with at least one subscribed device, Delete unregister matching devices for push notifications, Get list devices registered for receiving push notifications, Post register a device for receiving push notifications, Delete unregister a single device for push notifications, Get a device registration, Patch update a device registration, Put update a device registration, Get reset a registered devices update token, Post publish a push notification to devices |
-| Stats | Get retrieve usage statistics for an application, Get the service time |
+<details>
+<summary><b>Status</b> (3 operations)</summary>
+
+- Get Enumerate all active channels of the application
+- Get metadata of a channel
+- Get presence of a channel
+
+</details>
+
+<details>
+<summary><b>History</b> (2 operations)</summary>
+
+- Get message history for a channel
+- Get presence history of a channel
+
+</details>
+
+<details>
+<summary><b>Publishing</b> (1 operations)</summary>
+
+- Post Publish a message to a channel
+
+</details>
+
+<details>
+<summary><b>Authentication</b> (1 operations)</summary>
+
+- Post Request an access token
+
+</details>
+
+<details>
+<summary><b>Push</b> (13 operations)</summary>
+
+- Delete a registered device s update token
+- Get List channel subscriptions
+- Post Subscribe a device to a channel
+- Get List all channels with at least one subscribed device
+- Delete Unregister matching devices for push notifications
+- Get List devices registered for receiving push notifications
+- Post Register a device for receiving push notifications
+- Delete Unregister a single device for push notifications
+- Get a device registration
+- Patch Update a device registration
+- Put Update a device registration
+- Get Reset a registered device s update token
+- Post Publish a push notification to device s
+
+</details>
+
+<details>
+<summary><b>Stats</b> (2 operations)</summary>
+
+- Get Retrieve usage statistics for an application
+- Get the service time
+
+</details>
 
 ---
 

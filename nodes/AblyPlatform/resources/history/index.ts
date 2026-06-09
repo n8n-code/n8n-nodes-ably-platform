@@ -61,7 +61,7 @@ export const historyDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Channel Id",
+			"displayName": "Channel ID",
 			"name": "channel_id",
 			"required": true,
 			"description": "The [Channel's ID](https://www.ably.io/documentation/rest/channels).",
@@ -254,7 +254,7 @@ export const historyDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Channel Id",
+			"displayName": "Channel ID",
 			"name": "channel_id",
 			"required": true,
 			"description": "The [Channel's ID](https://www.ably.io/documentation/rest/channels).",

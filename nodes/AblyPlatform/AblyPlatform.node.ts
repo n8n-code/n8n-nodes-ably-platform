@@ -8,14 +8,14 @@ import { statsDescription } from './resources/stats';
 
 export class AblyPlatform implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'ably-platform',
+		displayName: 'Ably Platform',
 		name: 'N8nDevAblyPlatform',
 		icon: { light: 'file:./ably-platform.svg', dark: 'file:./ably-platform.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'REST API specification for Ably.',
-		defaults: { name: 'ably-platform' },
+		description: 'Ably REST API specification.',
+		defaults: { name: 'Ably Platform' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

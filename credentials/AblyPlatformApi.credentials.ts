@@ -8,7 +8,7 @@ import type {
 export class AblyPlatformApi implements ICredentialType {
 	name = 'N8nDevAblyPlatformApi';
 
-	displayName = 'ably-platform API';
+	displayName = 'Ably Platform API';
 
 	icon: Icon = { light: 'file:../nodes/AblyPlatform/ably-platform.svg', dark: 'file:../nodes/AblyPlatform/ably-platform.dark.svg' };
 
@@ -22,7 +22,7 @@ export class AblyPlatformApi implements ICredentialType {
 			default: 'https://rest.ably.io',
 			required: true,
 			placeholder: 'https://rest.ably.io',
-			description: 'The base URL of your ably-platform API server',
+			description: 'The base URL of your Ably Platform API server',
 		},
 		{
 			displayName: 'API Key',

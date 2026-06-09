@@ -93,7 +93,7 @@ export const authenticationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Client Id",
+			"displayName": "Client ID",
 			"name": "clientId",
 			"type": "string",
 			"default": "",

@@ -49,7 +49,7 @@ export const publishingDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Channel Id",
+			"displayName": "Channel ID",
 			"name": "channel_id",
 			"required": true,
 			"description": "The [Channel's ID](https://www.ably.io/documentation/rest/channels).",
@@ -67,7 +67,7 @@ export const publishingDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Client Id",
+			"displayName": "Client ID",
 			"name": "clientId",
 			"type": "string",
 			"default": "",
@@ -92,7 +92,7 @@ export const publishingDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",
@@ -192,7 +192,7 @@ export const publishingDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",

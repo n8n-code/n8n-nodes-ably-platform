@@ -133,7 +133,7 @@ export const statusDescription: INodeProperties[] = [
 					"value": "value"
 				},
 				{
-					"name": "Id",
+					"name": "ID",
 					"value": "id"
 				}
 			],
@@ -226,7 +226,7 @@ export const statusDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Channel Id",
+			"displayName": "Channel ID",
 			"name": "channel_id",
 			"required": true,
 			"description": "The [Channel's ID](https://www.ably.io/documentation/rest/channels).",
@@ -313,7 +313,7 @@ export const statusDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Channel Id",
+			"displayName": "Channel ID",
 			"name": "channel_id",
 			"required": true,
 			"description": "The [Channel's ID](https://www.ably.io/documentation/rest/channels).",
@@ -331,7 +331,7 @@ export const statusDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Client Id",
+			"displayName": "Client ID",
 			"name": "clientId",
 			"default": "",
 			"type": "string",
@@ -355,7 +355,7 @@ export const statusDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"default": "",
 			"type": "string",
