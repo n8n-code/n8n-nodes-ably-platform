@@ -7,32 +7,32 @@ import { pushDescription } from './resources/push';
 import { statsDescription } from './resources/stats';
 
 export class AblyPlatform implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Ably Platform',
-		name: 'N8nDevAblyPlatform',
-		icon: { light: 'file:./ably-platform.svg', dark: 'file:./ably-platform.dark.svg' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Ably REST API specification.',
-		defaults: { name: 'Ably Platform' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevAblyPlatformApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Ably Platform',
+                name: 'N8nDevAblyPlatform',
+                icon: { light: 'file:./ably-platform.svg', dark: 'file:./ably-platform.dark.svg' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'Ably REST API specification.',
+                defaults: { name: 'Ably Platform' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevAblyPlatformApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -78,6 +78,6 @@ export class AblyPlatform implements INodeType {
 		...authenticationDescription,
 		...pushDescription,
 		...statsDescription
-		],
-	};
+                ],
+        };
 }
